@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="class_group">
+        <item>10A_1</item>
+        <item>10A_2</item>
+        <item>10B_1</item>
+        <item>10B_2</item>
+        <item>10C_1</item>
+        <item>10C_2</item>
+        <item>10K_1</item>
+        <item>10K_2</item>
+        <item>10L_1</item>
+        <item>12A_1</item>
+        <item>12A_2</item>
+        <item>12B_1</item>
+        <item>12B_2</item>
+        <item>12C_1</item>
+        <item>12C_2</item>
+        <item>12K_1</item>
+        <item>12K_2</item>
+        <item>12L_1</item>
+        <item>12L_2</item>
+    </string-array>
+</resources>
+
+

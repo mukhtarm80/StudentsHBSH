@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "614275083458",
+    "firebase_url": "https://school-plants.firebaseio.com",
+    "project_id": "school-plants",
+    "storage_bucket": "school-plants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614275083458:android:0381016aaec9e0dbcddf5b",
+        "android_client_info": {
+          "package_name": "kz.edu.nis.hbsh.navdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJBctkwxhoXUgVlQrQ-xZO0kbSiEAPHDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614275083458:android:9fddd664df3fdb51cddf5b",
+        "android_client_info": {
+          "package_name": "kz.edu.nis.hbsh.plantmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614275083458-iced6bo2ueele5f0s29euls52krsl44g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.edu.nis.hbsh.plantmonitor",
+            "certificate_hash": "e88c76fb9534d91639495e5da35242484a0354b8"
+          }
+        },
+        {
+          "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJBctkwxhoXUgVlQrQ-xZO0kbSiEAPHDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614275083458:android:8192a9eede0fccd1cddf5b",
+        "android_client_info": {
+          "package_name": "kz.edu.nis.hbsh.students"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614275083458-69h9pu1tju3v5hk222oo06j0ql45gesr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.edu.nis.hbsh.students",
+            "certificate_hash": "e88c76fb9534d91639495e5da35242484a0354b8"
+          }
+        },
+        {
+          "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJBctkwxhoXUgVlQrQ-xZO0kbSiEAPHDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614275083458-ut9h8673npr82a1uccqdicl243t8kil5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Teacher">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/main_toolbar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/Tgroup" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_Klass"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/Tklass" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#636363"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tmathematics" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvMath"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTmathematics" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tmathematics_10" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvMath10"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTmathematics_10" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tbiology" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvBio"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTbiology" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tchemistry" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvChem"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTchemistry" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tphysics" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvPhys"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTphysics" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tinformatics" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvInf"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTinformatics" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tenglish" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvENG"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTenglish" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tkazakh" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvKAZ"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTkazakh" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Trussian" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvRUS"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTrussian" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tgeography" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvGeo"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTgeography" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Thistory_of_kazakhstan" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvHisKaz"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TThistory_of_kazakhstan" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tkmw" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvKMW"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTkmw" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/Tthe_world_history" />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:id="@+id/tvWHis"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="@string/TTthe_world_history" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/darker_gray">
+        <include layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
